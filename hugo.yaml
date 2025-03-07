@@ -27,12 +27,39 @@ markup:
 
 menu:
   main:
-    - name: Search
+    - name: Foundations
+      pageRef: /foundations
+      weight: 1
+    - name: Biomolecules
+      pageRef: /biomolecules
+      weight: 2
+    - name: Proteins
+      pageRef: /proteins
+      weight: 3
+    - name: Enzymes
+      pageRef: /enzymes
+      weight: 4
+    - name: Metabolism
+      pageRef: /metabolism
+      weight: 5
+    - name: Membranes
+      pageRef: /membranes
+      weight: 6
+    - name: Information pathways
+      pageRef: /info-paths
+      weight: 7
+    - name: Cell signaling
+      pageRef: /signaling
       weight: 8
+    - name: Cellular structure
+      pageRef: /cell-structure
+      weight: 9
+    - name: Search
+      weight: 15
       params:
         type: search
     - name: GitHub
-      weight: 9
+      weight: 16
       url: "https://github.com/oasci/bc-biochem"
       params:
         icon: github
